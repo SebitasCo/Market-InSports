@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 30px;
+}
+header > h1 {
+    color: #ffff;
+padding-left: 70px;
+padding-top: 50px;
+}
+
+header > img {
+    padding-left: 35rem;
+}
+
+.section1, .section3, .section5 {
+    height: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+
+.section1, .section3, .section5 > .puma {
+    padding-left: 51rem;
+}
+
+.nike {
+    width: 500px;
+    height: 375px;
+    padding-bottom: 150px;
+    padding-right: 14rem;
+}
+
+.line {
+    border:solid  2px black;
+    margin-top: 20px;
+    width: 30rem;
+    margin-left: 43rem;
+}
+
+.section2, .section4, .section6{
+    display: flex;
+ margin-top: 60px;
+}
+.card1 {
+    position: relative;
+    width: 320px;
+    height: 500px;
+    margin-right: 20px;
+    background: #191919;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: 0,3s;
+  }
+  
+
+  .card1:hover {
+    transform: scale(1.05); 
+}
+
+  
+  .card1 .img {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+  }
+  
+
+  
+  .card1 .description {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+  }
+  
+  .card1 .description h3 {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .card1 .description .price {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .card1 .description .addcart {
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    padding: 10px 30px;
+    margin-top: 15px;
+    color: #000000;
+    text-decoration: none;
+    background: #ffffff;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+  }
+  
+  .card1:hover .description .addcart {
+    top: 0;
+    opacity: 1;
+  }
+  
+  .puma1 {
+    height: 300px;
+    width: auto;
+  }
+  
